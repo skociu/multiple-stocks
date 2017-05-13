@@ -1,5 +1,5 @@
 # Requirements
-The following packages can be installed via pip if not already there
+The following packages can be installed via pip if not already there \
 pandas_datareader, pandas, numpy
 
 # About the Script
