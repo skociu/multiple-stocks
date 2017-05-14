@@ -19,7 +19,7 @@ def test_run():
 	    mydata = data.get_data_yahoo(ticker,
 	                                 start = start_date,
 	                                 end = end_date,
-	                                 interval='d')['Adj Close']
+	                                 interval='m')['Adj Close']
 	    #Renaming the series with the ticker name and adding all the series into one list
 	    symbol = pd.Series(mydata, name=ticker)
 	    listall.append(symbol) 
